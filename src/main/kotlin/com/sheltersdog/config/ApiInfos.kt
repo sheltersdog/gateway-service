@@ -11,4 +11,6 @@ data class ApiInfos(
     val volunteerService: ApiInfo,
     val foreverdogService: ApiInfo,
     val imageService: ApiInfo,
+    val addressService: ApiInfo,
+    val appService: ApiInfo,
 )
