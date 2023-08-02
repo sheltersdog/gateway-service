@@ -1,0 +1,35 @@
+api-infos:
+  key: sdfuawefnlawef
+  value: adfunawefa
+  user-service:
+    url: http://localhost:8080
+    real-path: /api/user/**
+    gateway-path: /api/user/**
+  shelter-service:
+    url: http://localhost:8080
+    real-path: /api/user/**
+    gateway-path: /api/user/**
+  volunteer-service:
+    url: http://localhost:8080
+    real-path: /api/user/**
+    gateway-path: /api/user/**
+  foreverdog-service:
+    url: http://localhost:8080
+    real-path: /api/user/**
+    gateway-path: /api/user/**
+  image-service:
+    url: http://localhost:8080
+    real-path: /api/user/**
+    gateway-path: /api/user/**
+
+management:
+  endpoint:
+    health:
+      show-details: never
+  endpoints:
+    web:
+      exposure:
+        include: health
+  health:
+    mail:
+      enabled: false
